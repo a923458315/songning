@@ -1,0 +1,295 @@
+@charset "UTF-8";
+.seckill{
+  padding-bottom: 1.5625rem;
+}
+div.title {
+  height: 1.40625rem;
+  position: fixed;
+  background-color: #fafafa;
+  width: 10rem;
+  box-sizing: border-box;
+  font-size: 0;
+  text-align: center;
+  padding: 0.375rem 0.25rem 0 0.390625rem;
+  z-index: 100;
+}
+div.title img {
+  width: 0.640625rem;
+  height: 0.640625rem;
+}
+div.title .refresh {
+  float: right;
+}
+div.title .return {
+  float: left;
+}
+div.title span {
+  font-size: 0.40625rem;
+}
+div.shopcart {
+  width: 1.6875rem;
+  height: 1.6875rem;
+  background: url("../../img/crazy_sale_shopcart.png") no-repeat;
+  z-index: 100;
+  background-size: 1.6875rem;
+  position: fixed;
+  bottom: 0.3125rem;
+  right: 0.28125rem;
+}
+.shopcartNum:before {
+  content: "1";
+  width: 0.5625rem;
+  height: 0.5625rem;
+  display: inline-block;
+  position: fixed;
+  bottom: 1.40625rem;
+  right: 0.28125rem;
+  font-size: 0.25rem;
+  color: #fff;
+  background: #f40;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 0.5625rem;
+}
+.salingInfo {
+  padding-top: 1.40625rem;
+}
+.salingInfo .banner {
+  font-size: 0;
+}
+.salingInfo .banner .bannerImg {
+  width: 10rem;
+  height: 4.390625rem;
+}
+.salingInfo .saleTime ul {
+  overflow-y: hidden;
+}
+.salingInfo .saleTime ul li {
+  box-sizing: border-box;
+  width: 25%;
+  height: 2.0625rem;
+  float: left;
+  border-bottom: 0.03125rem solid #ffffff;
+  border-right: 0.03125rem solid #ffffff;
+  background: #333;
+  color: #fff;
+  font-size: 0.375rem;
+  text-align: center;
+  line-height: 0.625rem;
+  padding-top: 0.125rem;
+}
+.salingInfo .saleTime ul li img {
+  width: 0.4375rem;
+  height: 0.4375rem;
+}
+.salingInfo .saleTime ul li:last-child {
+  border-right: 0;
+}
+.salingInfo .saleTime ul .processing {
+  background-color: #fc0;
+  color: #333;
+}
+.salingInfo .saleTime .endTime {
+  height: 1.25rem;
+  background-color: #efefef;
+  font-size: 0;
+  border-bottom: 0.03125rem solid #eeeeee;
+}
+.salingInfo .saleTime .endTime .endInfo {
+  display: inline-block;
+  width: 4.3125rem;
+  height: 1.15625rem;
+  font-size: 0.375rem;
+  background: url("../../img/crazy_sale_bg.png") no-repeat;
+  background-size: auto 1.25rem;
+  text-align: center;
+  line-height: 0.5625rem;
+  padding-top: 0.09375rem;
+}
+.salingInfo .saleTime .endTime a {
+  font-size: 0.375rem;
+  display: inline-block;
+  width: 3.5625rem;
+  height: 0.875rem;
+  background-color: #333;
+  border-radius: 0.4375rem;
+  color: #fff;
+  line-height: 0.875rem;
+  text-align: center;
+  float: right;
+  margin: 0.1875rem 0.3125rem;
+}
+.salingInfo .conductList .conduct {
+  font-size: 0;
+  border-bottom: 0.03125rem solid #eeeeee;
+}
+.salingInfo .conductList .conduct .img {
+  width: 4.5rem;
+  border-right: 0.03125rem solid #eeeeee;
+  height: 3.96875rem;
+  padding: 0.71875rem 0.15625rem 0 0.34375rem;
+  display: inline-block;
+  border-bottom: 0.03125rem dashed #ffffff;
+}
+.salingInfo .conductList .conduct .img img {
+  width: 3.8125rem;
+  height: 3.453125rem;
+}
+.salingInfo .conductList .conduct .conductInfo {
+  height: 4.2890625rem;
+  font-size: 0.390625rem;
+  display: inline-block;
+  padding: 0.3984375rem 0 0 0.5rem;
+  vertical-align: top;
+  line-height: 0.78125rem;
+  position: relative;
+}
+.salingInfo .conductList .conduct .conductInfo .price {
+  font-size: 0.375rem;
+  color: #f63;
+  line-height: 1.03125rem;
+}
+.salingInfo .conductList .conduct .conductInfo .price .curPrice {
+  font-size: 0.5625rem;
+}
+.salingInfo .conductList .conduct .conductInfo .price .oldPrice {
+  color: #999;
+}
+.salingInfo .conductList .conduct .conductInfo .price .mark {
+  color: #999;
+}
+.salingInfo .conductList .conduct .conductInfo .buying {
+  display: inline-block;
+  width: 3.5rem;
+  height: 0.9375rem;
+  line-height: 0.9375rem;
+  color: #fff;
+  background: #f63;
+  font-size: 0.390625rem;
+  border-radius: 0.46875rem;
+  text-align: center;
+  margin-top: 0.234375rem;
+}
+.hotSale {
+  height: 0.96875rem;
+  text-align: center;
+  line-height: 1.125rem;
+  background-color: #efefef;
+  font-size: 0;
+  border: none;
+  border-bottom: 0.15625rem solid #ffffff;
+  border-image-source: url("../../img/hotsale_bg.png");
+  border-image-slice: 10 0;
+  border-image-repeat: round;
+}
+.hotSale span {
+  background: url("../../img/hotsale_title_bg.gif") no-repeat;
+  padding: 0 0.296875rem;
+  background-size: 0.15625rem 0.546875rem;
+  font-size: 0.4375rem;
+}
+.hotSaleList {
+  padding: 0.125rem 0.1875rem;
+  background-color: #efefef;
+  font-size: 0;
+}
+.hotSaleList .conduct {
+  border: 0.03125rem solid #eeeeee;
+  width: 4.65625rem;
+  height: 6.6875rem;
+  background-color: #fff;
+  display: inline-block;
+  margin: 0.125rem 0.046875rem;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+}
+.hotSaleList .conduct .freeOne {
+  width: 2.65625rem;
+  height: 0.390625rem;
+  position: absolute;
+  left: -0.703125rem;
+  top: 0.3125rem;
+  background-color: #f00;
+  font-size: 0.375rem;
+  line-height: 0.390625rem;
+  color: #fff;
+  text-align: center;
+  transform: rotate(-45deg);
+}
+.hotSaleList .conduct img {
+  width: 4.65625rem;
+  height: 4.65625rem;
+  border-bottom: 0.03125rem dashed #333333;
+}
+.hotSaleList .conduct p {
+  font-size: 0.375rem;
+  line-height: 0.65625rem;
+  text-indent: 0.15625rem;
+}
+.hotSaleList .conduct .price {
+  color: #f00;
+}
+.hotSaleList .conduct .oldPrice {
+  color: #999;
+  text-decoration: line-through;
+}
+.hotSaleList .conduct .addConduct {
+  display: inline-block;
+  width: 0.8125rem;
+  height: 0.8125rem;
+  position: absolute;
+  right: 0.25rem;
+  bottom: 0.25rem;
+  z-index: 10;
+  background: url("../../img/crazy_sale_addIcon.gif") no-repeat center;
+  background-size: 0.265625rem 0.28125rem;
+  border: 0.03125rem solid #cccccc;
+  border-radius: 50%;
+}
+.hotSaleList .conduct .supplying {
+  width: 1.453125rem;
+  height: 0.703125rem;
+  color: #fff;
+  border-radius: 0.125rem;
+  display: inline-block;
+  position: absolute;
+  right: 0.25rem;
+  bottom: 0.25rem;
+  background: #808080;
+  font-size: 0.390625rem;
+  line-height: 0.703125rem;
+  text-align: center;
+  border: 0.03125rem solid #cccccc;
+  z-index: 10;
+}
+footer {
+  background-color: #efefef;
+}
+footer .activityRg {
+  padding-top: 0.15625rem;
+  height: 0.96875rem;
+  text-align: center;
+  line-height: 1.125rem;
+  font-size: 0;
+  border: none;
+  border-bottom: 0.15625rem solid #ffffff;
+  border-image-source: url("../../img/hotsale_bg.png");
+  border-image-slice: 10 0;
+  border-image-repeat: round;
+}
+footer .activityRg span {
+  background: url("../../img/hotsale_title_bg.gif") no-repeat;
+  padding: 0 0.296875rem;
+  background-size: 0.15625rem 0.546875rem;
+  font-size: 0.4375rem;
+}
+footer ul {
+  padding: 0.5rem 1.25rem 0;
+  font-size: 0;
+}
+footer ul li {
+  font-size: 0.3125rem;
+  list-style: decimal;
+  line-height: 0.46875rem;
+}
